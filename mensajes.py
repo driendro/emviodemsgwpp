@@ -10,11 +10,11 @@ import socket
 import csv
 
 # mensaje que quieres enviar
-message_text1 = 'Hola, cómo estás?'
-message_text2 = 'Te escribimos desde el FRenTe, para recordarte que estás inscripto en la jornada *"La Argentina Que Se Viene"*, que arranca mañana Lunes 11, a las 16hs en el anfiteatro "Malvinas Argentinas" (2do piso de sistemas).'
-message_text3 = 'Te pedimos que vengas minutos antes para acreditarte en el evento, y esperamos que la pases excelente.'
-message_text4 = 'Te recordamos que todos los detalles del evento están en nuestras redes (@frentelp30).'
-message_text5 = 'Saludos y gracias por estar!!!  FRenTe'
+message_text1 = 'parrafo1'
+message_text2 = 'parrafo2'
+message_text3 = 'parrafo3'
+message_text4 = 'parrafo4'
+message_text5 = 'parrafo5'
 
 no_of_message = 1  # no. de tiempo desea que el mensaje sea enviado
 
