@@ -28,8 +28,6 @@ for x in lista:
     for i in x:
         moblie_no_list.append(i)
 
-moblie_no_list=[542996032663]
-
 def element_presence(by, xpath, time):
     element_present = EC.presence_of_element_located((By.XPATH, xpath))
     WebDriverWait(driver, time).until(element_present)
