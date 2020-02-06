@@ -10,11 +10,11 @@ import socket
 import csv
 
 # mensaje que quieres enviar
-message_text1 = 'parrafo1'
-message_text2 = 'parrafo2'
-message_text3 = 'parrafo3'
-message_text4 = 'parrafo4'
-message_text5 = 'parrafo5'
+message_text1 = 'Parrafo1'
+message_text2 = 'Parrafo2'
+message_text3 = 'Parrafo3'
+message_text4 = 'Parrafo4'
+message_text5 = 'Parrafo5'
 
 no_of_message = 1  # no. de tiempo desea que el mensaje sea enviado
 
@@ -27,6 +27,8 @@ moblie_no_list = []
 for x in lista:
     for i in x:
         moblie_no_list.append(i)
+
+#moblie_no_list=[542996032663]
 
 def element_presence(by, xpath, time):
     element_present = EC.presence_of_element_located((By.XPATH, xpath))
